@@ -136,6 +136,11 @@ body[data-layout-mode="dark"] .navbar .navbar-nav .nav-link.active {
     display: inline-block;
     font-size: 50px;
   }
+  .home-3 .container-fluid .side-img.img,
+  .home-3 .job-home-hero .container-fluid .side-img.img,
+  .home-3 .comingsoon .container-fluid .side-img.img {
+    display: none !important;
+  }
 }
 @media only screen and (min-width: 1600px) {
   .container-fluid {
@@ -2364,7 +2369,7 @@ body[data-layout-mode="dark"] .bottom-footer {
 }
 
 .app-store img,
-.googleplay img{
+.googleplay img {
   height: 50px;
   object-fit: fill;
   padding-right: 10px;
