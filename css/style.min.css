@@ -2374,3 +2374,13 @@ body[data-layout-mode="dark"] .bottom-footer {
   object-fit: fill;
   padding-right: 10px;
 }
+
+.content {
+  margin-top: 100px;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-italic {
+  font-style: italic;
+}
